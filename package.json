@@ -1,0 +1,28 @@
+{
+  "name": "project-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joni1692/project-generator.git"
+  },
+  "author": "Jonatan Quintero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joni1692/project-generator/issues"
+  },
+  "bin": {
+    "project-generator-cli": "./index.js"
+  },
+  "homepage": "https://github.com/joni1692/project-generator#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "ejs": "^3.0.1",
+    "inquirer": "^7.1.0",
+    "shelljs": "^0.8.3"
+  }
+}
